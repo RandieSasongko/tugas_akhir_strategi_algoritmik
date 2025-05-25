@@ -1,0 +1,62 @@
+name: greedy_application
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  introduction_screen: ^3.1.12
+  pinput: ^4.0.0
+  flutter_timer_countdown: ^1.0.7
+  provider: ^6.1.2
+  dio: ^5.4.1
+  intl: ^0.19.0
+  flutter_launcher_icons: ^0.14.3
+  flutter_html: 3.0.0-beta.2
+  timer_builder: ^2.0.0
+
+  # Image Slider
+  carousel_slider: ^4.2.1
+
+  # GetX
+  get: ^4.6.6
+  get_storage: ^2.1.1
+
+  # Image
+  insta_image_viewer: ^1.0.4
+  image: ^4.1.7
+  image_picker: ^1.0.7
+
+  flutter_keyboard_visibility: ^6.0.0
+
+  cupertino_icons: ^1.0.8
+  top_snackbar_flutter: ^3.2.0
+  go_router: ^15.1.2
+  sliding_clipped_nav_bar: ^3.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "images/pickup.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/
+
+  fonts:
+    - family: Quicksand
+      fonts:
+        - asset: fonts/quicksand_regular.ttf
